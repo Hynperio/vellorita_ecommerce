@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_text{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.menu_text:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.banner{
+    position: absolute;
+    margin-top: 8.9%;
+}
+
+/* Media Queries */
+@media (min-width: 360px) {
+    /* Adjustments for Mobile */
+}
+
+@media (min-width: 540px) {
+    /* Adjustments for Mobile */
+    .logo{
+        height: 90%;
+        margin-top: 20%;
+    }
+
+    .menu_text{
+        font-size: medium;
+    }
+
+    .banner{
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+    }
+
+    .banner1{
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        margin-left: 5%;
+    }
+}
+
+@media (width: 653px) and (height:280px) {
+    /* Adjustments for Galaxy Fold*/
+    *{
+        overflow: hidden;
+    }
+
+    .logo{
+        height: 70%;
+        margin-top: 0%;
+    }
+    
+    .about{
+        font-size: 0px;
+    }
+
+    .menu_separation{
+        padding-left: 0%;
+        margin-top: -40%;
+        padding-bottom: 0%;
+    }
+    
+    .banner{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .banner1{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+        margin-right: 15%;
+    }
+}
+
+
+
+@media (width: 740px) {
+    /* Adjustments for S8+ */
+    *{
+        overflow: hidden;
+    }
+
+    .logo{
+        height: 80%;
+    }
+
+    .menu_separation{
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+    
+    .banner{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 3%;
+    }
+        
+    .banner1{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+        margin-right: 6%;
+    }
+}
+
+@media (min-width: 720px) {
+    /* Adjustments for Surface Duo */
+    *{
+        overflow: hidden;
+    }
+
+    .logo{
+        height: 80%;
+    }
+
+    .menu_separation{
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+    
+    .banner{
+        width: 30%;
+        height: 70%;
+        position: absolute;
+        margin-top: 23.5%;
+        margin-left: 3%;
+    }
+        
+    .banner1{
+        width: 30%;
+        height: 70%;
+        position: absolute;
+        margin-top: 0%;
+        margin-right: 3%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    /* Adjustments for Tablet */
+    .logo{
+        height: fit-content;
+        margin-top: 0%;
+    }
+
+    .menu_separation{
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+
+    .menu_text{
+        font-size: medium;
+    }
+
+    .banner{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-left: 2.5%;
+        margin-top: 0%;
+    }
+
+    .banner1{
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        margin-right: 8%;
+        margin-top: 0%;
+    }
+}
+
+@media (min-width: 963px) {
+    /* Adjustments for Desktop */
+    *{
+        overflow: hidden;
+    }
+
+    .logo{
+        height: fit-content;
+    }
+
+    .menu_separation{
+        position: relative;
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+
+    .banner{
+        position: absolute;
+        width: 30%;
+        height: 80%;
+        margin-top: 15%;
+    }
+
+    .banner1{
+        position: absolute;
+        width: 30%;
+        height: 80%;
+        margin-top: 0%;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Adjustments for Larger Desktop */
+
+    .logo{
+        width: 38px;
+        height: 279px;
+    }
+    
+    .banner{
+        width: 454px;
+        height: 754px;
+        margin-top: 11.5%;
+        margin-left: 0%;
+    }
+
+    .banner1{
+        width: 460px;
+        height: 702.778px;
+        margin-right: 18%;
+    }
+}
+
+@media (min-width: 1280px) {
+    /* Further adjustments for Large Screens */
+    
+        .logo{
+            width: 38px;
+            height: 279px;
+        }
+        
+        .banner{
+            width: 454px;
+            height: 754px;
+            margin-top: 11.5%;
+            margin-left: 0%;
+        }
+    
+        .banner1{
+            width: 460px;
+            height: 702.778px;
+            margin-right: 15%;
+        }
+    }
